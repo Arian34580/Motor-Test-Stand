@@ -46,7 +46,7 @@
 
 // Wi-Fi network the ESP32 creates
 const char *WIFI_NAME     = "ThrustStand";
-const char *WIFI_PASSWORD = "thrust1234";        // 8 characters or more
+const char *WIFI_PASSWORD = "";        // leave blank for no password
 
 // Auto test: steps from 0 % up to MAX_THROTTLE_PCT
 constexpr float STEP_PCT         = 5.0;    // throttle increase per step (%)
